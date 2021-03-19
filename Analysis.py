@@ -97,7 +97,7 @@ def Analysis(L,OD,N2,H2,H2O,CO2,CO,m):
     U = 1/Rthermal/SA_i #W/m2/K
     
     """Solution"""
-    n = 10000 #number of tubing node
+    n = 1000 #number of tubing node
     x = np.linspace(0,L,n)
     dx = L/n
     Tw = 1073.15 #K
