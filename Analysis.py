@@ -10,6 +10,8 @@ import matplotlib.pyplot as plt
 from thermo import Stream
 from thermo.mixture import Mixture
 from scipy.optimize import fsolve
+import warnings 
+warnings.filterwarnings('ignore') #to ignore RuntimeWarnings created when composition includes carbon dioxide
 
 
     
